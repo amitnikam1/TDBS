@@ -115,11 +115,11 @@ We would like to express our sincere thanks and gratitude to IET(Institute Of Em
 # Let's GO
 
 ![Project Image1](Images/LoginPage.png)
-![Project Image1](Images/User Activities.png)
-![Project Image1](Images/Temple Pages.png)
+![Project Image1](Images/TemplePages.png)
+![Project Image1](Images/UserActivities.png)
 ![Project Image1](Images/BookSlot.png)
 ![Project Image1](Images/Donation.png)
-![Project Image1](Images/Admin Page.png)
+![Project Image1](Images/AdminPage.png)
 
 
 ---
