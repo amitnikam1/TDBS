@@ -109,7 +109,7 @@ Project Link: [https://github.com/amitnikam1/TDBS](https://github.com/your_usern
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-We would like to express our sincere thanks and gratitude to IET(Institute Of Emerging Technology Pune) for letting us work on this project. we are very grateful to all teachers for their support and guidance in completing this project.
+We would like to express our sincere thanks and gratitude to Project Guide for letting us work on this project. we are very grateful to all teachers for their support and guidance in completing this project.
 
 
 # Let's GO
@@ -117,7 +117,7 @@ We would like to express our sincere thanks and gratitude to IET(Institute Of Em
 ![Project Image1](Images/HomePage.png)
 ![Project Image1](Images/TemplePages.png)
 ![Project Image1](Images/UserActivities.png)
-![Project Image1](Images/BookSlot.png)
+![Project Image1](Images/SlotBook.png)
 ![Project Image1](Images/Donation.png)
 ![Project Image1](Images/AdminPage.png)
 
