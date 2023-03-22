@@ -114,11 +114,17 @@ We would like to express our sincere thanks and gratitude to Project Guide for l
 
 # Let's GO
 
+Home Page : 
 ![Project Image1](Images/HomePage.png)
+Temples List :
 ![Project Image1](Images/TemplePages.png)
+User Activities :
 ![Project Image1](Images/UserActivities.png)
+Slot Book :
 ![Project Image1](Images/SlotBook.png)
+Donation Page:
 ![Project Image1](Images/Donation.png)
+Admin Page :
 ![Project Image1](Images/AdminPage.png)
 
 
