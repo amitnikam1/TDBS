@@ -3,7 +3,7 @@ import UserService from '../services/UserService';
 import  Form from 'react-validation/build/form';
 import Input from "react-validation/build/input";
 
-// import CheckButton from "react-validation/build/button";
+import CheckButton from "react-validation/build/button";
 
 //import HeaderComponent from './HeaderComponent';
 
@@ -64,10 +64,10 @@ class LoginPageComponent extends Component {
           loading: true
         });
     
-          // this.form.validateAll();
+          this.form.validateAll();
 
 
-        // if (this.checkBtn.context._errors.length === 0) {
+         if (this.checkBtn.context._errors.length === 0) {
 
         let user={email:this.state.email,  password:this.state.password}
         console.log('user =>'+JSON.stringify(user));
@@ -96,11 +96,11 @@ class LoginPageComponent extends Component {
             }
           );
 
-        // } else {
-        //   this.setState({
-        //     loading: false
-        //   });
-        // }
+        } else {
+          this.setState({
+            loading: false
+          });
+        }
        
       }
   
@@ -153,8 +153,8 @@ class LoginPageComponent extends Component {
       
        backgroundColor: 'transparent',
        background: 
-       'rgba(255,255,255,0.3)',
-       marginTop:'200px',
+       'rgba(255,255,255,0.31)',
+       marginTop:'180px',
      
    }}>
             
@@ -166,9 +166,9 @@ class LoginPageComponent extends Component {
    
              <Form        className="form-horizontal" 
                onSubmit={this.handleLogin}
-              //  ref={c => {
-              //    this.form = c;
-              //  }}
+               ref={c => {
+                 this.form = c;
+               }}
              >      
                <div className="form-group" 
       >
@@ -216,13 +216,13 @@ class LoginPageComponent extends Component {
                  </div>
                )}
 
-               {/* <CheckButton
+               <CheckButton
                  style={{ display: "none" }}
                  ref={c => {
                    this.checkBtn = c;
                  }}
-               /> */}
- 
+               />
+
              </Form>
              </div>
            </div>
