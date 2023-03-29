@@ -98,7 +98,7 @@ Hitesh Patil (phitesh2022@gmail.com)
 
 Arvind Singh
 
-Abhinav Yadav
+Bhagyesh Patil
 
 Project Link: [https://github.com/amitnikam1/TDBS](https://github.com/your_username/repo_name)
 
@@ -109,17 +109,23 @@ Project Link: [https://github.com/amitnikam1/TDBS](https://github.com/your_usern
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-We would like to express our sincere thanks and gratitude to IET(Institute Of Emerging Technology Pune) for letting us work on this project. we are very grateful to all teachers for their support and guidance in completing this project.
+We would like to express our sincere thanks and gratitude to Project Guide for letting us work on this project. we are very grateful to all teachers for their support and guidance in completing this project.
 
 
 # Let's GO
 
-![Project Image1](Images/LoginPage.png)
-![Project Image1](Images/User Activities.png)
-![Project Image1](Images/Temple Pages.png)
-![Project Image1](Images/BookSlot.png)
+Home Page : 
+![Project Image1](Images/HomePage.png)
+Temples List :
+![Project Image1](Images/TemplePages.png)
+User Activities :
+![Project Image1](Images/UserActivities.png)
+Slot Book :
+![Project Image1](Images/SlotBook.png)
+Donation Page:
 ![Project Image1](Images/Donation.png)
-![Project Image1](Images/Admin Page.png)
+Admin Page :
+![Project Image1](Images/AdminPage.png)
 
 
 ---
