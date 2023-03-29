@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import UserService from '../services/UserService';
 import  Form from 'react-validation/build/form';
 import Input from "react-validation/build/input";
-import CheckButton from "react-validation/build/button";
+
+// import CheckButton from "react-validation/build/button";
+
 //import HeaderComponent from './HeaderComponent';
 
 //import back2 from '../images/back2.jpg'
@@ -17,7 +19,7 @@ const required = value => {
           This field is required!
         </div>
       );
-    }
+    }                                       
   };
 class LoginPageComponent extends Component {
 
@@ -62,9 +64,11 @@ class LoginPageComponent extends Component {
           loading: true
         });
     
-        this.form.validateAll();
-    
-        if (this.checkBtn.context._errors.length === 0) {
+          // this.form.validateAll();
+
+
+        // if (this.checkBtn.context._errors.length === 0) {
+
         let user={email:this.state.email,  password:this.state.password}
         console.log('user =>'+JSON.stringify(user));
           UserService.loginUser(user).then(
@@ -91,11 +95,12 @@ class LoginPageComponent extends Component {
               });
             }
           );
-        } else {
-          this.setState({
-            loading: false
-          });
-        }
+
+        // } else {
+        //   this.setState({
+        //     loading: false
+        //   });
+        // }
        
       }
   
@@ -121,24 +126,26 @@ class LoginPageComponent extends Component {
      //   backgroundImage: `url(${back2})`,
      backgroundImage: `url(${back77})`,
 
-
         // backgroundRepeat:'no-repeat',
         // backgroundColor: 'lightblue',
        // width:'100vw',
-        height:'100vh',
-        backgroundSize: 'contain',
+
+         height:'100vh',
+        // backgroundSize: 'contain',
         backgroundSize: '100% 100%',
-       display:'flex',
+    //   display:'flex',
+   //   'flex-wrap': 'nowrap',
+
        padding:'0',
        margin:'0',
     }}>
                 
             <div className="col-md-12" >
-             
+
       <p  align="right">
                  <a href="/add-user" class="btn btn-info" role="button">Sign up</a></p>
                
-            <div class="col-md-4" ></div> 
+            {/* <div class="col-md-4" ></div>  */}
           
             <div className="card col-md-6 offset-md-3 offset-md-3"  style={{
        
@@ -159,17 +166,17 @@ class LoginPageComponent extends Component {
    
              <Form        className="form-horizontal" 
                onSubmit={this.handleLogin}
-               ref={c => {
-                 this.form = c;
-               }}
-             >
+              //  ref={c => {
+              //    this.form = c;
+              //  }}
+             >      
                <div className="form-group" 
       >
                  <label  htmlFor="email" >Email</label>
                  <Input 
                   className="form-control transparent-input"
                 
-                   type="text"
+                   type="email"
                    name="email"
                    value={this.state.email}
                    onChange={this.onChangeUsername}
@@ -208,12 +215,14 @@ class LoginPageComponent extends Component {
                    </div>
                  </div>
                )}
-               <CheckButton
+
+               {/* <CheckButton
                  style={{ display: "none" }}
                  ref={c => {
                    this.checkBtn = c;
                  }}
-               />
+               /> */}
+ 
              </Form>
              </div>
            </div>
