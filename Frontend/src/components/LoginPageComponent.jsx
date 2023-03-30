@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import UserService from '../services/UserService';
 import  Form from 'react-validation/build/form';
 import Input from "react-validation/build/input";
-
 import CheckButton from "react-validation/build/button";
 
 //import HeaderComponent from './HeaderComponent';
@@ -21,6 +20,7 @@ const required = value => {
       );
     }                                       
   };
+
 class LoginPageComponent extends Component {
 
     constructor(props) {
@@ -30,11 +30,6 @@ class LoginPageComponent extends Component {
             password:'',
             loading: false,
             message: ""
-         
-            
-          
-            
-
 
         }
    
@@ -180,6 +175,7 @@ class LoginPageComponent extends Component {
                    name="email"
                    value={this.state.email}
                    onChange={this.onChangeUsername}
+              
                    validations={[required]}
                  />
                </div>
